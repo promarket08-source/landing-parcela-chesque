@@ -1,0 +1,11 @@
+/* Simple, consistent styles for each parcel landing */
+:root { --accent: #00FF41; --bg: #050505; }
+html, body { margin:0; padding:0; background:var(--bg); color:#fff; font-family: Inter, sans-serif; }
+.header { text-align:center; padding:20px; }
+.title { font-size:2rem; color:#fff; }
+.neon-text { color:var(--accent); text-shadow:0 0 15px rgba(0,255,65,.5); }
+.content { padding: 0 20px; }
+.gallery-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; }
+.gallery-grid img { width:100%; height:150px; object-fit:cover; border-radius:12px; }
+.cta { text-align:center; margin-top:20px; }
+.btn-cta { display:inline-block; padding:12px 22px; border-radius:999px; background:var(--accent); color:#000; font-weight:800; text-decoration:none; }
